@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agrinho 2026</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body onload="mensagemBoasVindas()">
+
+<header>
+    <h1>🌱 AGRINHO 2026</h1>
+    <h2>Agro Forte, Futuro Sustentável</h2>
+
+    <button onclick="tocarAudio()">▶ Tocar Mensagem</button>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#tecnologia">Tecnologias</a>
+    <a href="#sustentabilidade">Sustentabilidade</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#quiz">Perguntas</a>
+    <a href="#creditos">Créditos</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre o Tema</h2>
+    <p>O agronegócio é essencial para a produção de alimentos e para o futuro sustentável do planeta.</p>
+</section>
+
+<section id="tecnologia">
+    <h2>Tecnologias no Campo 🚜</h2>
+    <ul>
+        <li>Drones agrícolas</li>
+        <li>Sensores inteligentes</li>
+        <li>Máquinas modernas</li>
+    </ul>
+</section>
+
+<section id="sustentabilidade">
+    <h2>Sustentabilidade ♻</h2>
+    <p>Uso consciente da água, solo e natureza para garantir o futuro.</p>
+</section>
+
+<section id="galeria">
+    <h2>Galeria de Imagens 📸</h2>
+
+    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854" width="300">
+    <img src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0" width="300">
+</section>
+
+<section id="quiz">
+    <h2>Perguntas ❓</h2>
+
+    <p>O agro sustentável ajuda o meio ambiente?</p>
+
+    <button onclick="responder('sim')">Sim</button>
+    <button onclick="responder('nao')">Não</button>
+
+    <p id="msg"></p>
+</section>
+
+<section id="creditos">
+    <h2>Créditos 👨‍💻</h2>
+    <p>Desenvolvedor: Pedro Mares</p>
+    <p>1º Ano do Ensino Médio</p>
+</section>
+
+<!-- ÁUDIO -->
+<audio id="audio">
+    <source src="audio.mp3" type="audio/mp3">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
