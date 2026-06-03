@@ -1,0 +1,20 @@
+function mensagemBoasVindas(){
+    alert("🌱 Bem-vindo ao Agrinho 2026 - Agro Forte, Futuro Sustentável!");
+}
+
+function tocarAudio(){
+    let audio = document.getElementById("audio");
+    audio.play();
+}
+
+function responder(resposta){
+    let msg = document.getElementById("msg");
+
+    if(resposta === "sim"){
+        msg.innerHTML = "✔ Correto! O agro sustentável protege o meio ambiente.";
+        msg.style.color = "green";
+    } else {
+        msg.innerHTML = "❌ Resposta incorreta. Tente novamente!";
+        msg.style.color = "red";
+    }
+}
